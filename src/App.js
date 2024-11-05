@@ -1,12 +1,12 @@
 import React from 'react';
-import RegisterForm from './RegisterForm';
+import BookingPage from './Pages/BookingPage';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <RegisterForm />
+      <BookingPage />
     </div>
   );
-}
+};
 
 export default App;
